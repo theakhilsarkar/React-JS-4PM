@@ -1,11 +1,27 @@
 // variable vs state(change-> component re-render/refresh)
 // react -> useState
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Todos = () => {
   const [todos, setTodos] = useState([{ title: "Singing at 12AM" }]);
   const [title, setTitle] = useState("");
+  const [hide, setHide] = useState(true); // let hide = true;
+  const [index, setIndex] = useState(0);
+
+  const setIntoLS = (data) => {
+    localStorage.setItem("todos", JSON.stringify(data));
+  };
+  const getFromLS = () => {
+    setTodos(JSON.parse(localStorage.getItem("todos")) || []);
+  };
+
+  // useEffect is used to handle side effect.
+  // useEffect execute first time when component render first time.
+  useEffect(() => {
+    getFromLS();
+  }, []);
+
   return (
     <>
       <section>
@@ -28,10 +44,23 @@ const Todos = () => {
             <button
               onClick={() => {
                 const temp = [...todos];
+                temp[index].title = title;
+                setTodos(temp);
+                setHide(true);
+                setTitle("");
+              }}
+              className={"btn btn-warning ms-3 " + (hide ? "d-none" : "")}
+            >
+              Update
+            </button>
+
+            <button
+              onClick={() => {
+                const temp = [...todos];
                 temp.push({ title });
                 setTodos(temp);
                 // setTodos([...todos, { title }]); // {title:"hello"}
-                console.log(todos);
+                setIntoLS(temp);
               }}
               className={
                 "btn btn-primary mx-3 " + (title === "" ? "disabled" : "")
@@ -60,6 +89,8 @@ const Todos = () => {
                   <button
                     onClick={() => {
                       setTitle(todos[i].title); // is used to update state(title)/.
+                      setHide(false);
+                      setIndex(i);
                     }}
                     className="btn ri-edit-circle-line fs-3 text-primary"
                   ></button>
