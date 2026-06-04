@@ -67,7 +67,6 @@
 
 // ctrl + shift + p - cmd pallate
 
-
 // changes
 
 // shift - 8hrs
@@ -75,8 +74,12 @@
 // 10:15 -> 6:15
 // task - html,css,mq - figma
 
-// AI - 
+// AI -
 
 // thursday
 // 10AM -> morning
 // 06PM -> evening
+
+const str = "hello world jay";
+
+console.log(str.split(" ").length);
