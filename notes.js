@@ -80,6 +80,47 @@
 // 10AM -> morning
 // 06PM -> evening
 
-const str = "hello world jay";
+// const str = "hello world jay";
 
-console.log(str.split(" ").length);
+// console.log(str.split(" ").length);
+
+// kho kho
+
+// 05/06/2026
+
+// componet, state, react - 5 times.
+// avnish
+// sachin
+// is ha
+// jayesh
+// sahil
+
+// class component - syntax
+// functional component - simple function which return ui.
+
+// react is ui library which is used to create single page web app.
+//
+// useState - hook is one type methods which provide specific type of feature of react.
+
+// single component
+// multiple components -
+
+// button - com
+// navbar - com
+// section - com
+// app - com
+
+// screen - com
+// multiple component come together and build a UI of react.
+
+// prop -> prop is one type of parametere which is used to get/sent data from/to another component.
+
+// process of passing data from one component to another called prop passing.
+
+// if prop passing become nested then its called prop drilling.
+
+
+// if we want to use state of a component into another component
+
+// 1. second component must be child of first component
+// 2. second component must be child of first component
