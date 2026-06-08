@@ -119,8 +119,17 @@
 
 // if prop passing become nested then its called prop drilling.
 
-
 // if we want to use state of a component into another component
 
 // 1. second component must be child of first component
 // 2. second component must be child of first component
+
+// A -> B -> C -> D
+
+// screens = is collecyion of multiple components
+// component = an individual part of the ui.
+// multiple screens come together and create a full website.
+
+// part ui, screen, app
+
+// App -> direct ui code
