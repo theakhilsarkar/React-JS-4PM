@@ -126,10 +126,33 @@
 
 // A -> B -> C -> D
 
-// screens = is collecyion of multiple components
+// screens = is collection of multiple components
 // component = an individual part of the ui.
 // multiple screens come together and create a full website.
 
 // part ui, screen, app
 
 // App -> direct ui code
+
+// prop - which can used to pass data from one component to another component
+
+// why - to pass data from one component to another component
+// - we can pass state,information,and call back function from one component to another component.
+
+// 45
+// const ageOfStudent = 18;
+// <Student age={ageOfStudent} />;
+
+// function Student({ age }) {
+//   <Display name={age} />;
+// }
+
+// function Display({ name }) {
+//   <Child name={name} />;
+// }
+
+// function Child({name}){
+
+// }
+
+// state - array - CRUD
