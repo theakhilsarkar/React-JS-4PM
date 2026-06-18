@@ -156,3 +156,29 @@
 // }
 
 // state - array - CRUD
+
+
+// react
+
+// counter app
+// todo app - crud
+// text utils
+// portfolio - routing
+// note app
+
+// API stands for application programming interface.
+// api used to handle request and response with the server.
+// API CALLING - process of sending request to the server
+
+// there is two way to call api in react
+// 1. fetch() function
+// 2. axios package
+
+// projects
+// api calling
+// filter + sorting + pagination(backend)
+// api returns data in json format
+// JSON - javascript object notation - array and object combination
+
+// bulk data - paginations - divide bulk data in page by page.
+
