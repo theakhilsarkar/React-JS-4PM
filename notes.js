@@ -182,3 +182,8 @@
 
 // bulk data - paginations - divide bulk data in page by page.
 
+// protected route - url -> validate
+
+// event -> pass
+
+// local storage - 
