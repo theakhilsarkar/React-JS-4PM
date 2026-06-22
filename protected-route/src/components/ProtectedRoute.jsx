@@ -20,6 +20,6 @@ export default function ProtectedRoute({ children }) {
   if (authenticate) {
     return children;
   } else {
-    return <SignIn />;
+    return <SignIn to="/" />;
   }
 }
