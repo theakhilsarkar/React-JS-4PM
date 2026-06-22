@@ -19,14 +19,15 @@ export default function PhotoScreen() {
   };
 
   const handlePagination = (x) => {
+    // x = "2"
     let page;
     if (x == "") {
       page = 1;
     } else {
-      page = Number(x);
+      page = Number(x); // page = 2
     }
-    const start = (page - 1) * 10;
-    const end = start + 9;
+    const start = (page - 1) * 10; // (2-1)*10 = 10 -> 11
+    const end = start + 9; // 10 + 9 -> 19 -> 20
     setPagienation({ ...pagienation, start, end });
   };
 
@@ -46,7 +47,7 @@ export default function PhotoScreen() {
             </div>
           );
         }
-        return;
+        return; // return execution/break the iteration
       })}
       <button
         onClick={() => {

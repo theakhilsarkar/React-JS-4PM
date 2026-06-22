@@ -157,7 +157,6 @@
 
 // state - array - CRUD
 
-
 // react
 
 // counter app
@@ -186,4 +185,10 @@
 
 // event -> pass
 
-// local storage - 
+// local storage -
+
+// const str = "Hello World";
+
+// const res = str.toLowerCase().includes("hello");
+
+// console.log(res);
