@@ -3,11 +3,14 @@ import axios from "axios";
 
 export default function Photos() {
   const [products, setProducts] = useState([]);
+  const [store, setStore] = useState([]); // to store copy of main data
   const [search, setSearch] = useState("");
 
   const handleFetchPhotos = async () => {
     const res = await axios.get("https://dummyjson.com/products");
     setProducts(res.data.products);
+    setStore(res.data.products);
+    console.log("1. products fetched");
   };
 
   const getSearch = (e) => {
@@ -24,6 +27,25 @@ export default function Photos() {
     );
   };
 
+  const handleCategoryFilter = (e) => {
+    setProducts(store);
+    console.log(products.length);
+    if (e.target.value == "all") {
+      setProducts(store);
+    } else {
+      setProducts(
+        store.filter((product) => product.category == e.target.value),
+      );
+    }
+  };
+
+  const handlePriceFilter = (e) => {
+    console.log(e.target.value);
+    setProducts(
+      store.filter((product) => product.price >= Number(e.target.value)),
+    );
+  };
+
   useEffect(() => {
     handleFetchPhotos();
   }, []);
@@ -36,6 +58,15 @@ export default function Photos() {
           <button onClick={handleSearch} className="mx-2 btn btn-primary">
             Search
           </button>
+          <select onChange={handleCategoryFilter}>
+            <option value={"all"}>All</option>
+            <option value={"beauty"}>Beauty</option>
+            <option value={"fragrances"}>Fragrances</option>
+            <option value={"furniture"}>Furniture</option>
+            <option value={"groceries"}>Groceries</option>
+          </select>
+          price
+          <input onChange={handlePriceFilter} type="range" min={1} max={2500} />
           <button onClick={handleFetchPhotos} className="mx-2 btn btn-primary">
             Clear Filter
           </button>
@@ -61,3 +92,17 @@ export default function Photos() {
     </>
   );
 }
+
+// ecom - app
+// api calling
+// pagination
+// searching = multy keyword searching
+// dropdown filter
+// slider filter - range filter
+// lecture - 
+
+
+// state management
+// 1. useState
+// 2. context api
+// 3. redux toolkit - rtk
