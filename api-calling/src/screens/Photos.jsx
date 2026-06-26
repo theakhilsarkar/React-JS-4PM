@@ -99,10 +99,17 @@ export default function Photos() {
 // searching = multy keyword searching
 // dropdown filter
 // slider filter - range filter
-// lecture - 
-
 
 // state management
 // 1. useState
 // 2. context api
 // 3. redux toolkit - rtk
+
+// api calling - 
+// backend + frontend
+
+
+// json server - GET POST PUT DELETE
+// server start
+
+// 

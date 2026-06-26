@@ -192,3 +192,13 @@
 // const res = str.toLowerCase().includes("hello");
 
 // console.log(res);
+
+
+// json-server
+// 1. json format store
+// 2. server start -> data access
+// 3. all data will be stored in same file.
+
+// npm i json-server
+// 1. enter in json folder
+// npx json-server db.json

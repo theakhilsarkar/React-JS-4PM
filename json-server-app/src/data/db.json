@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "name": "sachin",
+      "role": "yadav",
+      "id": "0yj7DcecFB0"
+    },
+    {
+      "name": "gaurav",
+      "role": "mishra",
+      "id": "SJnkivxfpTU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
