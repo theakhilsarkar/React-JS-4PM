@@ -9,8 +9,9 @@ export default function App() {
   );
 }
 
-// Notes - CRUD - API - JSON-SERVER
+// json server - api, call - GET,POST,PUT,DELETE - Note
 
-// grid view
-
-// monday.
+// state management
+// useState - small - component
+// useContent - context api - mid
+// redux js toolkit - high
