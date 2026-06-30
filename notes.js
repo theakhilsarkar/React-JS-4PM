@@ -193,7 +193,6 @@
 
 // console.log(res);
 
-
 // json-server
 // 1. json format store
 // 2. server start -> data access
@@ -202,3 +201,39 @@
 // npm i json-server
 // 1. enter in json folder
 // npx json-server db.json
+
+// useState -> context
+
+// redux js toolkit - third party
+// file structure
+
+// component
+// screen
+// json/data -> db.js
+
+// todo app
+
+// login/logout/signup - auth
+// CRUD + filter - feature
+// profile - profile
+
+// instagram
+
+// profile
+// auth
+// post
+// reel
+// message
+//
+
+// [1,2]
+
+// [1,2],"add" -> [1,2,3]
+
+// slice -> state,logic -> reducer -> action
+
+// store -> holds all slices
+
+// selector -> to fetch data and function from store
+
+// 
