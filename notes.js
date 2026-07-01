@@ -235,5 +235,3 @@
 // store -> holds all slices
 
 // selector -> to fetch data and function from store
-
-// 
