@@ -19,11 +19,9 @@ const noteSlice = createSlice({
 export default noteSlice.reducer;
 export const { add, remove } = noteSlice.actions;
 
-
 // redux toolkit - CRUD project : todo,notes,task,inventory,ecom,....
 
 // form -> input -> slice-state -> display on UI.
-
 
 // ECommerce
 
