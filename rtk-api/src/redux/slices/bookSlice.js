@@ -26,7 +26,17 @@ const bookSlice = createSlice({
   // sync
   reducers: {
     searchBook: (state, action) => {
-      state.books = state.books.filter((book) => book.title == action.payload);
+      state.books = state.books.filter(
+        (book) =>
+          book.title.toLowerCase() == action.payload.toLowerCase() ||
+          book.author.toLowerCase() == action.payload.toLowerCase() ||
+          book.category.toLowerCase() == action.payload.toLowerCase(),
+      );
+    },
+    sortBook: (state, action) => {
+      state.books = state.books.sort((a, b) =>
+        action.payload ? a.price - b.price : b.price - a.price,
+      );
     },
   },
   // async = delay = network request
@@ -66,5 +76,5 @@ const bookSlice = createSlice({
   },
 });
 
-export const { searchBook } = bookSlice.actions;
+export const { searchBook, sortBook } = bookSlice.actions;
 export default bookSlice.reducer;

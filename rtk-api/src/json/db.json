@@ -1,24 +1,200 @@
 {
   "books": [
     {
-      "title": "qqqqqqqqq",
-      "author": "qqqqq",
-      "id": "tr1luRJo9rc"
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "category": "Fiction",
+      "id": "jV_EaiTPuMs"
     },
     {
-      "title": "qqqqqqqqq",
-      "author": "qqqqq",
-      "id": "bBeTq6pwy0w"
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "price": 19.99,
+      "category": "History",
+      "id": "fqtZdu9kwCw"
     },
     {
-      "title": "aaa",
-      "author": "aaa",
-      "id": "lUDKNulvz64"
+      "title": "Educated",
+      "author": "Tara Westover",
+      "price": 15.49,
+      "category": "Biography",
+      "id": "RMaeIBzLvjk"
     },
     {
-      "title": "bbb",
-      "author": "bbb",
-      "id": "IzH2SzLi47c"
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 13.99,
+      "category": "Fantasy",
+      "id": "kLFULKUS6rs"
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 11.99,
+      "category": "Fantasy",
+      "id": "vH6cYX75Obc"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 12.5,
+      "category": "Fiction",
+      "id": "ZbTJsCnueK8"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 9.99,
+      "category": "Romance",
+      "id": "Y9Yf3S6ALqk"
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 14,
+      "category": "Fiction",
+      "id": "e56viZduRjg"
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "price": 18,
+      "category": "Psychology",
+      "id": "MlSxJXFkv1M"
+    },
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "price": 16.99,
+      "category": "Thriller",
+      "id": "T0Qbq95Ul1I"
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 17.99,
+      "category": "Self-Help",
+      "id": "8NDeKdkWZBg"
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "price": 15.99,
+      "category": "Sci-Fi",
+      "id": "-95P-SgNErs"
+    },
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "price": 14.95,
+      "category": "Mystery",
+      "id": "ASblErDg6bY"
+    },
+    {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "price": 18.99,
+      "category": "Biography",
+      "id": "iKeNVl7CBCo"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "price": 13.99,
+      "category": "Dystopian",
+      "id": "xfr36wPDS-M"
+    },
+    {
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "price": 12.99,
+      "category": "Historical Fiction",
+      "id": "Bfs3wnF6oQc"
+    },
+    {
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "price": 11,
+      "category": "Thriller",
+      "id": "qPhj2wvoggo"
+    },
+    {
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "price": 16,
+      "category": "Science",
+      "id": "kz_T-RQsj-4"
+    },
+    {
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "price": 24.99,
+      "category": "Business",
+      "id": "c9kRjFa5RRQ"
+    },
+    {
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "price": 15,
+      "category": "Fiction",
+      "id": "pu64gmmvVbo"
+    },
+    {
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "price": 17,
+      "category": "Sci-Fi",
+      "id": "sGvKzEHGMu4"
+    },
+    {
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "price": 14.99,
+      "category": "Mystery",
+      "id": "80DxQJkmq_o"
+    },
+    {
+      "title": "Outliers",
+      "author": "Malcolm Gladwell",
+      "price": 16.99,
+      "category": "Psychology",
+      "id": "TmvInA3H8AQ"
+    },
+    {
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "price": 15.99,
+      "category": "Self-Help",
+      "id": "ksACurGvq4I"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "price": 8.99,
+      "category": "Horror",
+      "id": "RWxJ7tDKjg0"
+    },
+    {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "price": 16.5,
+      "category": "Horror",
+      "id": "-HPu2NUXa6w"
+    },
+    {
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "price": 14.99,
+      "category": "Fantasy",
+      "id": "Awpx3bpk-74"
+    },
+    {
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "price": 18,
+      "category": "Business",
+      "id": "Bw949oLZOuk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
