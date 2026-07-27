@@ -112,27 +112,34 @@ export default function Books() {
   );
 }
 
-// vishal - regular, with laptop, Backend Dev.
-// prince - regular, with laptop, Backend Dev.
-// darshan - regular, with laptop, Backend Dev.
-// sakshi - iregular, with laptop, Backend Dev.
+// vishal - regular, with laptop, Backend Dev.   77.61% academic performance, class performance - medium
+// prince - regular, with laptop, Backend Dev.   81.32% academic performance, class performance - medium
+// darshan - regular, with laptop, Backend Dev.  76.99% academic performance, class performance - medium
+// sakshi - iregular, with laptop, Backend Dev.  79.23% academic performance, class performance - low
 
-// sahil - iregular, with laptop, Frontend Dev.
-// jayesh - regular, with laptop, Frontend Dev.
-// sachin - regular, with laptop, Frontend Dev.
-// roushan - regular, no laptop, Frontend Dev.
-// om - regular, with laptop, Frontend Dev.
-// avnish - iregular, no laptop, Frontend Dev.
-// gaurav - regular, with laptop, Frontend Dev.
-// isha - iregular, no laptop, Frontend Dev.
+// sahil - iregular, with laptop, Frontend Dev., 73.69% academic performance, class performance - low
+// jayesh - regular, with laptop, Frontend Dev., 70.87% academic performance, class performance - low
+// sachin - regular, with laptop, Frontend Dev., 82.32% academic performance, class performance - low
+// roushan - regular, no laptop, Frontend Dev.   85.97% academic performance, class performance - medium
+// om - iregular, with laptop, Frontend Dev.     58.68% academic performance, class performance - low
+// avnish - iregular, no laptop, Frontend Dev.   70.79% academic performance, class performance - low
+// gaurav - regular, with laptop, Frontend Dev.  85.42% academic performance, class performance - medium
+// isha - iregular, no laptop, Frontend Dev.     76.98% academic performance, class performance - low
 
 // 3 - 2F,1B
 
 // 1 month from 20 july
 // petrol - 100
 
-// surat it hub - learning, 
+// surat it hub - learning,
 // UIUX, VE,app,web,desktop,
 // UPSC  - delhi
+
+// ER Model - 1hr
+
+// roshan, gaurav, sakshi
+// darshan, om, sahil
+// jayesh,vishal,avnish
+// prince,sachin,isha.
 
 

@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "name": "Gaurav Khanna",
+      "email": "gaurav@gmail.com",
+      "password": "123456",
+      "address": "surat",
+      "phone": "+91 987456321"
+    },
+    {
+      "email": "customer1@gmail.com",
+      "password": "123456",
+      "phone": "789654",
+      "address": "surat",
+      "name": "customer1",
+      "id": "9T3CVrbQY24"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

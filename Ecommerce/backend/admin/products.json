@@ -1,0 +1,13 @@
+{
+  "products": [
+    {
+      "id": "111",
+      "name": "Eye Glass 234",
+      "description": "Black Fram, Red Glass, Yellow Shine",
+      "price": 2500,
+      "discount": 12,
+      "brand": "Lenskart",
+      "status": "active"
+    }
+  ]
+}
