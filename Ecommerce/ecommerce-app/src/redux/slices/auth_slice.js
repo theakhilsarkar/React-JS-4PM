@@ -77,7 +77,7 @@ const authSlice = createSlice({
   name: "auth",
   initialState: {
     users: [],
-    currentUser: {}, // currently loggedin user
+    currentUser: null, // currently loggedin user
     err: null,
     isLoading: false,
   },
