@@ -238,3 +238,30 @@
 
 // AUTH
 // ADMIN -> ADMIN PANEL
+
+
+
+// browser - html,css,js
+// react compiler - 
+
+// cofee maker - 1000
+
+// 5G smartphone under 25000
+
+// 
+
+// 
+
+// navbar redesign..
+
+
+
+// src
+// src/components : all ui block
+
+// app is main folder - screens/pages/routes
+
+// page.js
+// page.jsx
+
+// app/ page.js
