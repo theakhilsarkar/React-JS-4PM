@@ -265,3 +265,6 @@
 // page.jsx
 
 // app/ page.js
+
+// react - talwind css,
+// form -> data another page
