@@ -1,0 +1,17 @@
+{
+    "blogs": [
+        {
+            "title": "jay kadamb naresh 2026",
+            "category": "history",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum, perferendis consequuntur eos delectus fugiat, tempore sequi officia repellat animi ipsum id expedita veniam cupiditate eum ad doloremque maxime ipsam.",
+            "id": "uYKRcEnpOGQ"
+        },
+        {
+            "title": "India Skil 2026",
+            "category": "Competition",
+            "description": "This is......................",
+            "id": "_SViwiTe_sM"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}

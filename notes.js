@@ -268,3 +268,12 @@
 
 // react - talwind css,
 // form -> data another page
+
+// src/app
+// src/app/home/page.js
+// src/app/home/profile/page.js
+// src/app/home/profile/dsa/page.js
+
+// local/home/profile/dsa
+
+// http://localhost:3000/home/prfile/4

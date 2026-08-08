@@ -1,13 +1,14 @@
 "use client";
 
-// mount -> start/create
-
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useContext } from "react";
+import { UserContext } from "../../components/UserProvider";
 
 export default function Form() {
   const router = useRouter();
   const [user, setUser] = useState({});
+  const { setUserData } = useContext(UserContext);
   return (
     <>
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
@@ -34,6 +35,9 @@ export default function Form() {
             className="space-y-6"
             onSubmit={(e) => {
               e.preventDefault();
+              console.log(e.target.value);
+              console.log(user);
+              setUserData(user);
               router.push("/user");
             }}
           >
@@ -140,3 +144,7 @@ export default function Form() {
 
 // useState form -> next
 // useState -> counter app, todo app - CRUD
+
+// context
+// useContext -> use
+// createContext -> store
